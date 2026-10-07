@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SystemServiceKiller" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">#D32F2F</item>
+        <item name="colorPrimaryVariant">#9A0007</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FF5252</item>
+        <item name="colorSecondaryVariant">#C50E29</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+</resources>

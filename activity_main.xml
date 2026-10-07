@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#000000">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Service 病毒专杀"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="选择清除档位"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/btnLevel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="档位 1：普通档\n基础权限 + 文件访问"
+        android:textColor="#FFFFFF"
+        android:background="#1E88E5"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLevel2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="档位 2：高级档\n+ 无障碍服务"
+        android:textColor="#FFFFFF"
+        android:background="#FFA726"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLevel3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="档位 3：终极档\n+ Shizuku 强制清除"
+        android:textColor="#FFFFFF"
+        android:background="#EF5350"
+        android:padding="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnLevel4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="档位 4：死亡档\n全部权限 + 深度清理"
+        android:textColor="#FFFFFF"
+        android:background="#B71C1C"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#1A1A1A"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00FF00"
+            android:textSize="12sp"
+            android:fontFamily="monospace"
+            android:padding="8dp" />
+    </ScrollView>
+
+</LinearLayout>
